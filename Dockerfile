@@ -4,8 +4,8 @@ WORKDIR /app
 
 ENV PATH /app/node_modules/.bin:$PATH
 
-RUN npm install --silent
-
 COPY . ./
+
+RUN npm install --silent
 
 CMD ["npm", "start"]
