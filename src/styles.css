@@ -37,24 +37,19 @@ body {
   /* Hero styles */
   .hero {
     background-color: #000;
-    background-image: url('../AWS@drawio.png');
-    border-radius: 10%; /* Add border-radius to round the corners */
+    background-image: url('../Bot (confetti).png'); 
+    background-size: 20px;
+   background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-top: 5%;
 
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    min-height: 40px; /* Adjust the value as needed */
-    max-width: 40;
+    height: 60vh; /* Set the height to take up the entire viewport */
     display: flex;
     justify-content: center;
-    padding: 5rem 0;
-    text-align: center;
-    padding: 5rem 0;
-    margin-top: 5%;
-    margin-left: 32%;
-    margin-right: 32%;
+    align-items: center;
+}
 
-  }
   
   .hero h1 {
     
